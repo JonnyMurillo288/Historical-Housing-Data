@@ -842,8 +842,8 @@ function initControls() {
 // ----------------------------
 async function loadData() {
   const [geoResp, metricsResp] = await Promise.all([
-    fetch("../data/counties.geojson"),
-    fetch("../data/metrics.json")
+    fetch("data/counties.geojson"),
+    fetch("data/metrics.json")
   ]);
   countiesGeojson = await geoResp.json();
   metrics = await metricsResp.json();
