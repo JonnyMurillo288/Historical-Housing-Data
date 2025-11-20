@@ -218,27 +218,27 @@ const COLOR_RAMP = [
 
 // Custom diverging ramp for RAI % change (7 colors)
 const RAI_CHANGE_RAMP = [
-  [33, 102, 172, 255],     // deep blue
-  [146, 197, 222, 255],   // medium blue
-  [198, 219, 239, 255],   // light blue
-  [222, 235, 247, 255],   // very light blue
-  [255, 255, 255, 255],   // midpoint (0%)
-  [252, 187, 161, 255],   // light red
-  [222, 45, 38, 255],     // deep red
+  [33, 102, 172, 255],   // deep blue
+  [103, 169, 207, 255],  // medium blue
+  [209, 229, 240, 255],  // light blue
+  [255, 255, 255, 255],  // white (around -25 to -10)
+  [253, 219, 199, 255],  // light red
+  [239, 138, 98, 255],   // medium red
+  [178, 24, 43, 255]     // deep red
 ];
   
 // Fixed breaks for RAI % change (7 bins)
 const RAI_CHANGE_BREAKS = [
-  -Infinity,   // deep blue
-  -75,         // medium blue
-   -50,          // light blue
-  -25,          // very light blue
-  0,          // white
- 25,          // light red
- 50,          // deep red
+  -Infinity,  // deep blue
+  -75,        // medium blue
+  -50,        // light blue
+  -25,        // white → beginning of transition
+  -10,        // light red
+   0,         // medium red
+  10,         // deep red
   Infinity
 ];
-
+  
 const METRIC_OPTIONS = [
   { value: "HAI",  label: "HAI – Housing Affordability Index" },
   { value: "RAI",  label: "RAI – Rent Affordability Index" },
