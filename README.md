@@ -2,6 +2,8 @@
 **(Static Web App — Leaflet + Chart.js Edition)**  
 **Live App:** _[Add your Render URL here]_  
 
+![County Housing Affordability Map](https://github.com/JonnyMurillo288/Housing-Data/blob/main/HAI_2000_2023_publish_v3_new_color.jpg)
+
 This project provides an interactive, browser-based exploration of **U.S. county-level housing affordability** using a custom-built **JavaScript (Leaflet) web mapping framework**. The goal is to unify and visualize long-term affordability trends using county-level historical Census and modern ACS data.
 
 It is the successor to the earlier Streamlit dashboard and now runs entirely client-side using:
