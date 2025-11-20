@@ -1,6 +1,8 @@
 # 🏡 U.S. County Housing & Rent Affordability Atlas  
 **(Static Web App — Leaflet + Chart.js Edition)**  
-**Live App:** _[Add your Render URL here]_  
+**Live App:** https://historical-us-housing-data.onrender.com/  
+
+![Site Example Map & Chart](https://github.com/JonnyMurillo288/Historical-Housing-Data/blob/main/site_screenshot.png)
 
 ![County Housing Affordability Map](https://github.com/JonnyMurillo288/Housing-Data/blob/main/HAI_2000_2023_publish_v3_new_color.jpg)
 
