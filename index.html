@@ -383,7 +383,8 @@ function styleForFeature(feature) {
 
   const scale = getCurrentColorScale();
   // RAI uses its own diverging ramp → do NOT reverse
-  const reverse = (metric === "RAI");
+  //const reverse = (metric === "RAI");
+  const reverse = false;
   const fillColor = valueToColor(value, scale, reverse, false);
 
   return {
